@@ -28,7 +28,7 @@ const NavBar = () => {
           )}
         </div>
         <div className="hidden  sm:flex w-2/3 items-center">
-          <div className="hidden lg:flex gap-5">
+          <div className="hidden lg:flex gap-3">
             <MenuItem name={"Home"} icon={<Home />} />
             <MenuItem name={"Profile"} icon={<UserCircle />} />
             <MenuItem name={"Sign in"} icon={<LogIn />} />

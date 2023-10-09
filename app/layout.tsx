@@ -16,7 +16,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`overflow-x-hidden w-screen ${inter.className}`}>
+      <body className={`overflow-x-hidden max-w-screen bg-[#F1EFEF] ${inter.className}`}>
         {children}
       </body>
     </html>
