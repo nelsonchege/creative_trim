@@ -4,7 +4,7 @@ import { Fingerprint, RefreshCcw, Star } from "lucide-react";
 
 const Services = () => {
   return (
-    <div className="w-full px-3 flex flex-wrap justify-center gap-5 mt-[-25px]">
+    <div className="w-full px-3 flex flex-wrap justify-center gap-5 mt-[-65px]">
       <Service
         title={"Awarded Agency"}
         logo={<Star color="white" fill="white" />}
@@ -15,7 +15,7 @@ const Services = () => {
       />
       <Service
         title={"Free Revisions"}
-        logo={<RefreshCcw  color="white" />}
+        logo={<RefreshCcw color="white" />}
         description={
           "Keep you user engaged by providing meaningful information. Remember that by this time, the user is curious."
         }
