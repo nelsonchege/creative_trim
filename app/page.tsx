@@ -1,3 +1,4 @@
+import Building from "@/components/Building";
 import Header from "@/components/Header";
 import Heros from "@/components/Heros";
 import Messaging from "@/components/Messaging";
@@ -11,7 +12,7 @@ export default function Home() {
       <Services />
       <Messaging/>
       <Heros/>
-      <div>section 5</div>
+      <Building/>
       <div>section 6</div>
       <div>section 7</div>
     </>
