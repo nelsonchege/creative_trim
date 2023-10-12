@@ -15,7 +15,7 @@ const Building = (props: Props) => {
           Administration, Ted, Scambos.
         </p>
       </div>
-      <div className="flex gap-7">
+      <div className="flex gap-7 flex-col sm:flex-row ">
         <BuildItem
           logo={<Star fill="black" size={20} />}
           title={"Excellent Services"}

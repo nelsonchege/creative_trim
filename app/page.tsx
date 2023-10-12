@@ -1,4 +1,5 @@
 import Building from "@/components/Building";
+import Contact from "@/components/Contact";
 import Header from "@/components/Header";
 import Heros from "@/components/Heros";
 import Messaging from "@/components/Messaging";
@@ -10,10 +11,10 @@ export default function Home() {
     <>
       <Header />
       <Services />
-      <Messaging/>
-      <Heros/>
-      <Building/>
-      <div>section 6</div>
+      <Messaging />
+      <Heros />
+      <Building />
+      <Contact />
       <div>section 7</div>
     </>
   );
